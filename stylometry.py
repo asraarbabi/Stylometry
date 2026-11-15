@@ -83,10 +83,10 @@ print(len(all_chunks), "chunks in total")
 all_chunks = [c for c in all_chunks if len(c["text"].split()) == 500]
 print(len(all_chunks), "chunks after removing short ones")
 
-# turn the list of chunks into a table              ← NEW
-import pandas as pd                                 # ← NEW
-df = pd.DataFrame(all_chunks)                       # ← NEW
-print(df["author"].value_counts())                  # ← NEW
+# turn the list of chunks into a table              
+import pandas as pd                                 
+df = pd.DataFrame(all_chunks)                       
+print(df["author"].value_counts())                  
 
 
 # function words: small, common words that don't depend on the story
