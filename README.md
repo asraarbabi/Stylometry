@@ -38,7 +38,7 @@ I put both Brontë sisters in on purpose to see if the model can tell them apart
 
 ```
 pip install -r requirements.txt
-python authorship_attribution.py
+python python stylometry.py
 ```
 
 ## Team
